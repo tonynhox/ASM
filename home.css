@@ -1,0 +1,604 @@
+.container {
+    background-color: #EEEE;
+    max-width: 1300px;
+    margin: 0 auto;
+
+}
+
+* {
+    background-color: #EEEE;
+    padding: 0px;
+    margin: 0px;
+}
+
+.banner {
+    height: 25%;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 13px;
+}
+
+.banner>img {
+    height: 300px;
+    width: 100%;
+}
+
+
+.tmenu {
+    position: fixed;
+    top: 0;
+    right: 150px;
+    background-color: white;
+}
+
+.tmenu a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+.tmenu a:hover {
+    color: rgb(69, 8, 126)
+}
+
+.menu {
+    background-color: white;
+    position: fixed;
+    border-bottom: 5px solid rgb(206, 206, 206);
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+    padding-left: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+.menu>ul {
+    background-color: white;
+}
+
+.menu li {
+    background-color: white;
+}
+
+.menu>ul>li>a {
+    background-color: white;
+    display: block;
+    margin: 0 5px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.menu ul li a:hover {
+    color: red;
+    background-color: #EEEE;
+}
+
+.menu>ul>li {
+    display: inline-block;
+}
+
+.menu ul ul {
+    background-color: white;
+    position: absolute;
+    display: none;
+}
+
+.menu ul ul a {
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-size: larger;
+    padding: 0 10px;
+}
+
+.menu ul ul li {
+    display: block;
+}
+
+.menu ul ul a:hover {
+    background-color: orangered;
+    color: white;
+}
+
+
+.menu>ul>li:hover>ul {
+    display: block;
+}
+
+.cart {
+    float: right;
+    position: fixed;
+    top: 5px;
+    right: 80px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.logo {
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    left: 140px;
+    background-color: rgb(206, 206, 206);
+}
+
+.logo>img {
+
+    height: 40px;
+}
+
+
+.content>main {
+    min-height: 400px;
+    width: 75%;
+    float: right;
+}
+
+.content>aside {
+    min-height: 400px;
+    width: 25%;
+    float: left;
+}
+
+
+
+.menu-colum>ul {
+    border-radius: 3px;
+    box-shadow: 0 0 5px orange;
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+}
+
+.menu-colum a {
+    display: block;
+    border-bottom: 1px dotted orange;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+    transition: 0.3s;
+}
+
+.menu-colum a:hover {
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+
+.tmenu {
+    margin-top: 5px;
+}
+
+.tmenu>a {
+
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.tmenu a:hover {
+    color: rgb(69, 8, 126)
+}
+
+h2 {
+    color: white;
+    height: 30px;
+    background-color: rgb(0, 183, 255);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+main {
+    background-color: #EEEE;
+
+}
+
+.san-pham-case {
+    width: 33%;
+    float: left;
+    background-color: #EEEE;
+
+}
+
+.sanpham {
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+
+}
+
+
+.sanpham>.ten {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.sanpham>img {
+    max-width: 90%;
+    height: 140px;
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+
+.sanpham>img:hover {
+    transform: scale(1.1);
+}
+
+.sanpham>.gia {
+    background-color: white;
+    color: red;
+    font-size: large;
+}
+
+.sanpham:hover {
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.sanpham:hover>.ten {
+    color: red;
+}
+
+.box {
+    text-align: center;
+}
+
+.box2 {
+    padding-top: 7px;
+    text-align: center;
+    clear: left;
+}
+
+.noiDung {
+    text-align: justify;
+}
+
+.news_item_case {
+    width: 25%;
+    float: left;
+
+}
+
+.sanpham>* {
+    background-color: white;
+}
+
+.sanpham>a>strong {
+    background-color: white;
+}
+
+.news a {
+    text-decoration: none;
+    color: black;
+    text-align: left;
+}
+
+.news img {
+    max-width: 98%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.news img:hover {
+    transform: scale(0.9);
+}
+
+.news a:hover {
+    color: rgba(228, 209, 39, 0.849);
+}
+
+footer {
+    border-top: 5px double orange;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    clear: both;
+}
+
+
+
+
+
+.btn-toggle-menu {
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    font-size: 20px;
+    top: 10px;
+    right: 20px;
+}
+
+#toggle-menu {
+    display: none;
+
+}
+
+.box-mobile{
+    display: none;
+
+}
+
+.box-mobile>ul {
+    border-radius: 3px;
+    box-shadow: 0 0 5px orange;
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+}
+
+.box-mobile a {
+    display: block;
+    border-bottom: 1px dotted orange;
+    color: orangered;
+    font-variant: normal;
+    font-size: x-large;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+    transition: 0.3s;
+}
+
+.box-mobile a:hover {
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+
+.box-mobile>*{
+    position: fixed;
+    top: 40px;
+    right: 0;
+}
+
+
+.box-mobile ul li {
+    display: block;
+    font-size: 30px;
+}
+
+
+@media screen and (max-width: 1210px) {
+
+    .box-mobile>ul>li:nth-child(2){
+        display: none;
+    }
+
+    .box-mobile>ul>li:nth-child(3){
+        display: none;
+    }
+
+    .box-mobile>ul>li:nth-child(4){
+        display: none;
+    }
+
+    .box-mobile>ul>li:nth-child(10){
+        display: none;
+    }
+
+    .menu {
+        padding-left: 20%;
+    }
+    
+
+    .tmenu{
+        display: none;
+    }
+
+    .btn-toggle-menu {
+        display: unset;
+    }
+
+    .box-mobile{
+        float: right;
+        
+    }
+
+    #toggle-menu:checked+#menu-mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .cart{
+        right: 50px;
+    }
+    .logo{
+        left: 20px;
+    }
+
+    .content>aside{
+        display: none;
+    }
+
+    .content>main{
+        width: 100%;
+    }
+
+    .san-pham-case {
+        width: 33%
+    
+    }
+
+    .news_item_case {
+        width: 50%;
+    }
+
+    .news_item_case img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .banner>img {
+        height: 200px;
+        width: 100%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 992px) {
+
+    .box-mobile>ul>li:nth-child(2){
+        display: block;
+    }
+
+    .box-mobile>ul>li:nth-child(3){
+        display: block;
+    }
+
+    .box-mobile>ul>li:nth-child(4){
+        display: block;
+    }
+
+    .box-mobile>ul>li:nth-child(10){
+        display: block;
+    }
+
+    .menu>* {
+        display: none;
+    }
+    
+
+    .tmenu{
+        display: none;
+    }
+
+    .btn-toggle-menu {
+        display: unset;
+    }
+
+    .box-mobile{
+        float: right;
+        
+    }
+
+    #toggle-menu:checked+.box-mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .cart{
+        right: 50px;
+    }
+    .logo{
+        left: 20px;
+    }
+
+    .content>aside{
+        display: none;
+    }
+
+    .content>main{
+        width: 100%;
+    }
+
+    .san-pham-case {
+        width: 50%
+    
+    }
+
+    .news_item_case {
+        width: 50%;
+    }
+
+    .news_item_case img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .banner>img {
+        height: 200px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .box-mobile>ul>li:nth-child(2){
+        display: block;
+    }
+
+    .box-mobile>ul>li:nth-child(3){
+        display: block;
+    }
+
+    .box-mobile>ul>li:nth-child(4){
+        display: block;
+    }
+
+    .box-mobile>ul>li:nth-child(10){
+        display: block;
+    }
+
+    .menu>* {
+        display: none;
+    }
+    
+
+    .tmenu{
+        display: none;
+    }
+
+    .btn-toggle-menu {
+        display: unset;
+    }
+
+    .box-mobile{
+        float: right;
+        
+    }
+
+    #toggle-menu:checked+.box-mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .cart{
+        right: 50px;
+    }
+    .logo{
+        left: 20px;
+    }
+
+    .content>aside{
+        display: none;
+    }
+
+    .content>main{
+        width: 100%;
+    }
+
+    .san-pham-case {
+        width: 50%
+    
+    }
+
+    .news_item_case {
+        width: 100%;
+    }
+
+    .news_item_case img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .banner>img {
+        height: 200px;
+        width: 100%;
+    }
+}
